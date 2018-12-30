@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 
-
-
 class Keys extends Component {
 
     render() {
         return (
-
-            <div className="buttons">
-                <br />
-                <div className="result-bar" />
+            <div className="button">
                 <button name="(" onClick={e => this.props.onClick(e.target.name)}>(</button>
                 <button name="CE" onClick={e => this.props.onClick(e.target.name)}>CE</button>
                 <button name=")" onClick={e => this.props.onClick(e.target.name)}>)</button>
@@ -38,9 +33,9 @@ class Keys extends Component {
                 <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button>
                 <button name="/" onClick={e => this.props.onClick(e.target.name)}>÷</button><br />
             </div>
-
         );
     }
 }
+
 
 export default Keys;

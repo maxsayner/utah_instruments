@@ -1,28 +1,27 @@
-.background {
-  background-color: rgb(12, 20, 40);
-  height: 1000px;
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  border: 2px solid white;
-color: red;
-}
-
-.calc-body {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+.result p {
+  font-size: 40px;
+  margin: 5px;
 
 }
 
-
-.buttons {
-  background-color: white;
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
 }
 
-.result-bar {
-border: 1px solid black;
+.button {
+  display: block;
+  background-color: #bbb;
 }
 
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
